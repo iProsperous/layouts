@@ -1,71 +1,183 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<!--<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!--<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600&family=Josefin+Sans:wght@400;500;600&display=swap" rel="stylesheet">-->
-<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <header class="header">
-    <div class="container d-flex jc-sb ai-c header header__menu">
-      <img src="images/logo.svg" alt="">
-      <nav class="header header__menu--mrg">
-        <ul class="d-flex jc-sb">
-          <li><a href="">The experience</a></li>
-          <li><a href="">Booking info</a></li>
-          <li><a href="">Our locations</a></li>
-          <li><a href="">Gallery</a></li>
-          <li><a href="">Reviews</a></li>
-          <li><a href="">Contact us</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <section class="openair">
-     <div class="container d-flex ai-c banner">
-        <div class="bannercnt">
-          <p class="bannercnt bannercnt--txtupper">Open-Air Film Experience</p>
-          <h1>Rooftop Cinema</h1>
-          <p class="bannercnt bannercnt--txtbanner">To turn your movie night into an adventure</p>
-          <div class="d-flex btn jc-sb">
-            <a class="btn btn__btncolprop btn__btncolprop--color d-flex" href="">Book a day</a>
-            <a class="btn btn__btntrnspprop btn__btntrnspprop--trnsp d-flex" href="">How it works</a>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container d-flex jc-sb ai-c header__menu">
+        <img src="images/logo.svg" alt="" width="120" />
+        <nav class="header__nav">
+          <ul class="mainmenu d-flex jc-sb">
+            <li class="mainmenu__item"><a href="">The experience</a></li>
+            <li class="mainmenu__item"><a href="">Booking info</a></li>
+            <li class="mainmenu__item"><a href="">Our locations</a></li>
+            <li class="mainmenu__item"><a href="">Gallery</a></li>
+            <li class="mainmenu__item"><a href="">Reviews</a></li>
+            <li class="mainmenu__item"><a href="">Contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="openair section-cover">
+      <div class="container d-flex ai-c">
+        <div class="section-cover__bannercnt">
+          <h1 class="section-cover__title">
+            <span>Open-Air Film Experience</span> Rooftop Cinema
+          </h1>
+          <div class="section-cover__text">
+            To turn your movie night <br />into an adventure
+          </div>
+          <div class="section-cover__actions">
+            <a href="#!" class="button button--primary">Book a day</a>
+            <a href="#!" class="button button--secondary">How it works</a>
           </div>
         </div>
-        <img class="imagebanner" src="/images/bg.jpg" alt="">
-      </div>
-  </section>
-  <section class="video">
-    <div class="d-flex container ai-c boxcolor">
-      <img src="images/video.jpg" alt="">
-      <div class="about">
-        <h2>Open-air film experience</h2>
-        <div class="d-grid">
-          <div class="about-item">
-            <h3>Personal Headphones</h3>
-            <p>Live completely in those movie moments, try to catch them!</p>
-          </div>
-          <div class="about-item">
-            <h3>City Views</h3>
-            <p>Our locations immerse you in the city skyline at night</p>
-          </div>
-          <div class="about-item">
-            <h3>Chairs & Cozy Blankets</h3>
-            <p>Lean back and relax under the night sky in the hugs of fluffy blanket</p>
-          </div>  
-          <div class="about-item">
-            <h3>Iconic Movies</h3>
-            <p>Our program is curated with cult films, classics, and new releases</p>
-          </div>         
+        <div>
+          <img src="/images/bg.jpg" alt="" height="750" />
         </div>
       </div>
-      
-    </div>
-  </section>
-</body>
+    </section>
+
+    <section class="video section-benefits">
+      <div class="container">
+        <div class="d-flex">
+          <div class="section-benefits__video">
+            <a class="videobox" href="#!">
+              <img src="images/video.jpg" alt="" />
+            </a>
+          </div>
+          <div class="section-benefits__about">
+            <h2 class="section-benefits__title">Open-air film experience</h2>
+            <ul class="d-grid">
+              <li class="section-benefits__item">
+                <h3>Personal Headphones</h3>
+                <p>
+                  Live completely in those movie moments, try to catch them!
+                </p>
+              </li>
+              <li class="section-benefits__item">
+                <h3>City Views</h3>
+                <p>Our locations immerse you in the city skyline at night</p>
+              </li>
+              <li class="section-benefits__item">
+                <h3>Chairs & Cozy Blankets</h3>
+                <p>
+                  Lean back and relax under the night sky in the hugs of fluffy
+                  blanket
+                </p>
+              </li>
+              <li class="section-benefits__item">
+                <h3>Iconic Movies</h3>
+                <p>
+                  Our program is curated with cult films, classics, and new
+                  releases
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="location">
+      <div class="container">
+        <div class="location__title d-flex jc-sb ai-c">
+          <h2>Our locations</h2>
+          <div class="navigation__actions">
+            <a href="#!" class="buttonnav button--small">&#10095;</a>
+            <a href="#!" class="buttonnav button--small">&#10094;</a>
+          </div>
+        </div>
+        <div class="d-flex jc-sb">
+          <div class="location__club">
+            <div class="location__clubimg">
+              <img src="images/la.jpg" alt="" width="394" />
+            </div>
+            <div class="location__name d-flex jc-sb ai-c">
+              <p>Cinema Club El Segundo</p>
+              <div class="location__stars">&#9733; 4,6</div>
+            </div>
+            <div class="location__city d-flex jc-sb ai-c">
+              <p>Los Angeles</p>
+              <div class="location__price"><span>From $25</span>/person</div>
+            </div>
+          </div>
+          <div class="location__club">
+            <div class="location__clubimg location__gradient">
+              <img src="images/houston.jpg" alt="" width="394" />
+              <a href="#!" class="button button--primary button--position"
+                >Choose location</a
+              >
+            </div>
+            <div class="location__name d-flex jc-sb ai-c">
+              <p>The Drive-In Off Navigation</p>
+              <div class="location__stars">&#9733; 4,8</div>
+            </div>
+            <div class="location__city d-flex jc-sb ai-c">
+              <p>Houston</p>
+              <div class="location__price"><span>From $22</span>/person</div>
+            </div>
+          </div>
+          <div class="location__club">
+            <div class="location__clubimg">
+              <img src="images/sd.jpg" alt="" width="394" />
+            </div>
+            <div class="location__name d-flex jc-sb ai-c">
+              <p>Cinema Club Embracadero</p>
+              <div class="location__stars">&#9733; 4,2</div>
+            </div>
+            <div class="location__city d-flex jc-sb ai-c">
+              <p>San Diego</p>
+              <div class="location__price"><span>From $25</span>/person</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="gallery">
+      <div class="container">
+        <div class="gallery__title d-flex jc-sb ai-c">
+          <h2>
+            Gallery
+            <span>See more and follow us <span>@rooftopcinema</span></span>
+          </h2>
+          <div class="navigation__actions jc-sb">
+            <a href="#!" class="buttonnav button--small">&#10095;</a>
+            <a href="#!" class="buttonnav button--small">&#10094;</a>
+          </div>
+        </div>
+        <div class="d-flex jc-sb">
+          <img
+            class="gallery_bigimage"
+            src="images/biggallery.jpg"
+            alt=""
+            width="607"
+          />
+
+          <div class="gallery__grid">
+            <div class="gallery__item">
+              <img src="images/gallerypeople1.jpg" alt="" width="288" />
+            </div>
+            <div class="gallery__item">
+              <img src="images/gallerypeople2.jpg" alt="" width="288" />
+            </div>
+            <div class="gallery__item">
+              <img src="images/gallerypeople3.jpg" alt="" width="288" />
+            </div>
+            <div class="gallery__item">
+              <img src="images/gallerypeople4.jpg" alt="" width="288" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
